@@ -14,10 +14,10 @@ keyCommands = {
 
 
 --Custom Polaris
-{down = device_commands.Button_11, up = device_commands.Button_11, cockpit_device_id  = devices.ENGINE_SYSTEM, value_down = 0.0, value_up = 0.1, name = 'Alternate Mixture IDLE CUT OFF', category = 'Flight Control'},
-{down = device_commands.Button_11, up = device_commands.Button_11, cockpit_device_id  = devices.ENGINE_SYSTEM, value_down = 0.2, value_up = 0.1, name = 'Alternate Mixture EMERGENCY FULL RICH', category = 'Flight Control'},
-{down = device_commands.Button_2, up = device_commands.Button_2, cockpit_device_id  = devices.FRONT_SWITCH_BOX, value_down = 0.3, value_up= 0.0, name = 'Alternate Ignition switch BOTH', category = 'Front Switch Box'},
-{down = device_commands.Button_3, up = device_commands.Button_3, cockpit_device_id  = devices.FUEL_SYSTEM, value_down = 1, value_up = 0, name = 'Alternate Fuel shut-off valve', category = 'Fuel Control'},
+{down = device_commands.Button_11, up = device_commands.Button_11, cockpit_device_id  = devices.ENGINE_SYSTEM, value_down = 0.0, value_up = 0.1, name = 'Alternate Mixture IDLE CUT OFF', category = 'DCSToggleSwitches'},
+{down = device_commands.Button_11, up = device_commands.Button_11, cockpit_device_id  = devices.ENGINE_SYSTEM, value_down = 0.2, value_up = 0.1, name = 'Alternate Mixture EMERGENCY FULL RICH', category = 'DCSToggleSwitches'},
+{down = device_commands.Button_2, up = device_commands.Button_2, cockpit_device_id  = devices.FRONT_SWITCH_BOX, value_down = 0.3, value_up= 0.0, name = 'Alternate Ignition switch BOTH', category = 'DCSToggleSwitches'},
+{down = device_commands.Button_3, up = device_commands.Button_3, cockpit_device_id  = devices.FUEL_SYSTEM, value_down = 1, value_up = 0, name = 'Alternate Fuel shut-off valve', category = 'DCSToggleSwitches'},
 
 
 {down = iCommandEnginesStart, name = _('Start Procedure'), category = _('Cheat')},

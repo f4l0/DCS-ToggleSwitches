@@ -14,13 +14,13 @@ invertY = false,
 keyCommands = {
 
 -- Custom
-{down = nav_lights_commands.F86_CockpitDeviceCommand_LandAndTaxiLights, up = nav_lights_commands.F86_CockpitDeviceCommand_LandAndTaxiLights, cockpit_device_id = devices.NAV_LIGHTS_INTERFACE, value_down = -1, value_up= 0, name = 'Alternate Landing & Taxi Lights - Retract & Off', category = 'Left Forward Console'},
-{down = nav_lights_commands.F86_CockpitDeviceCommand_LandAndTaxiLights, up = nav_lights_commands.F86_CockpitDeviceCommand_LandAndTaxiLights, cockpit_device_id = devices.NAV_LIGHTS_INTERFACE, value_down = 1, value_up= 0, name = 'Alternate Landing & Taxi Lights - Off & On', category = 'Left Forward Console'},
+{down = nav_lights_commands.F86_CockpitDeviceCommand_LandAndTaxiLights, up = nav_lights_commands.F86_CockpitDeviceCommand_LandAndTaxiLights, cockpit_device_id = devices.NAV_LIGHTS_INTERFACE, value_down = -1, value_up= 0, name = 'Alternate Landing & Taxi Lights - Retract & Off', category = 'DCSToggleSwitches'},
+{down = nav_lights_commands.F86_CockpitDeviceCommand_LandAndTaxiLights, up = nav_lights_commands.F86_CockpitDeviceCommand_LandAndTaxiLights, cockpit_device_id = devices.NAV_LIGHTS_INTERFACE, value_down = 1, value_up= 0, name = 'Alternate Landing & Taxi Lights - Off & On', category = 'DCSToggleSwitches'},
 
-{down = electric_commands.F86_CockpitDeviceCommand_EngineMasterSw_EXT, up = electric_commands.F86_CockpitDeviceCommand_EngineMasterSw_EXT, cockpit_device_id = devices.ELEC_INTERFACE, value_down = 1, value_up = 1, name = 'Alternate Engine Master', category = 'Right Forward Console'},
+{down = electric_commands.F86_CockpitDeviceCommand_EngineMasterSw_EXT, up = electric_commands.F86_CockpitDeviceCommand_EngineMasterSw_EXT, cockpit_device_id = devices.ELEC_INTERFACE, value_down = 1, value_up = 1, name = 'Alternate Engine Master', category = 'DCSToggleSwitches'},
 
-{down = iCommandPlaneFlapsOn, up = control_commands.F86_CockpitDeviceCommand_FlapsHandle, cockpit_device_id = devices.CONTROL_INTERFACE, value_down = 0, value_up = 0, name = 'Alternate Flaps Down', category = 'Systems'},
-{down = iCommandPlaneFlapsOff, up = control_commands.F86_CockpitDeviceCommand_FlapsHandle, cockpit_device_id = devices.CONTROL_INTERFACE, value_down = 0, value_up = 0, name = 'Alternate Flaps Up', category = 'Systems'},
+{down = iCommandPlaneFlapsOn, up = control_commands.F86_CockpitDeviceCommand_FlapsHandle, cockpit_device_id = devices.CONTROL_INTERFACE, value_down = 0, value_up = 0, name = 'Alternate Flaps Down', category = 'DCSToggleSwitches'},
+{down = iCommandPlaneFlapsOff, up = control_commands.F86_CockpitDeviceCommand_FlapsHandle, cockpit_device_id = devices.CONTROL_INTERFACE, value_down = 0, value_up = 0, name = 'Alternate Flaps Up', category = 'DCSToggleSwitches'},
 
 {down = iCommandEnginesStart, name = _('Auto Start'),	category = _('Cheat')},
 {down = iCommandEnginesStop,  name = _('Auto Stop') ,	category = _('Cheat')},

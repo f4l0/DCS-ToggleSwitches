@@ -8,17 +8,17 @@ swapAxes = false,
 
 keyCommands = {
 
-{down = iCommandPlaneWheelParkingBrake, up = iCommandPlaneWheelParkingBrake,  name = _("Custom Wheel brake parking"),  category = _("Custom"), },
-{down = iCommandSwitchMasterArm, up = iCommandSwitchMasterArm, name = _("Custom Master arm on/off"),  category = _("Custom"), },
-{down = iCommandHelicopter_Rotor_Lock, up = iCommandHelicopter_Rotor_Lock, name = _("Custom Rotor brake"),  category = _("Custom"), },
-{down = iCommandPlaneLaserRangerOnOff, up = iCommandPlaneLaserRangerOnOff, name = _("Custom Laser standby On/Off switch"),  category = _("Custom"), },
-{down = iCommandPlaneWheelParkingBrake, up = iCommandPlaneWheelParkingBrake,  name = _("Custom Wheel brake parking"),  category = _("Custom"), },
-{down = iCommandPlaneGear, up = iCommandPlaneGear,  name = _("Gear lever"),  category = _("Custom"), },
-{down = iCommandPlane_AmmoTypeSelect, up = iCommandPlane_AmmoTypeSelect, name = _("Cannon Round Selector"),  category = _("Custom"), },
-{down = iCommandPlane_WeaponMode_Manual_Auto, up = iCommandPlane_WeaponMode_Manual_Auto, name = _("Weapon system control switch Manual/Auto "),  category = _("Custom"), },
-{down = iCommandPlane_AutomaticTracking_Gunsight_switch, up = iCommandPlane_AutomaticTracking_Gunsight_switch, name = _("Automatic tracking/gun sight"),  category = _("Custom"), },
-{down = iCommandPlane_FireRate, up = iCommandPlane_FireRate,  name = _("Cannon rate of fire setting"),  category = _("Custom"), },
-{down = iCommandPlaneModeHelmet, up = iCommandPlaneModeHelmet,  name = _("Helmet-mounted system On/Off"),  category = _("Custom"), },
+{down = iCommandPlaneWheelParkingBrake, up = iCommandPlaneWheelParkingBrake,  name = _("Custom Wheel brake parking"),  category = _("DCSToggleSwitches"), },
+{down = iCommandSwitchMasterArm, up = iCommandSwitchMasterArm, name = _("Custom Master arm on/off"),  category = _("DCSToggleSwitches"), },
+{down = iCommandHelicopter_Rotor_Lock, up = iCommandHelicopter_Rotor_Lock, name = _("Custom Rotor brake"),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlaneLaserRangerOnOff, up = iCommandPlaneLaserRangerOnOff, name = _("Custom Laser standby On/Off switch"),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlaneWheelParkingBrake, up = iCommandPlaneWheelParkingBrake,  name = _("Custom Wheel brake parking"),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlaneGear, up = iCommandPlaneGear,  name = _("Gear lever"),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlane_AmmoTypeSelect, up = iCommandPlane_AmmoTypeSelect, name = _("Cannon Round Selector"),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlane_WeaponMode_Manual_Auto, up = iCommandPlane_WeaponMode_Manual_Auto, name = _("Weapon system control switch Manual/Auto "),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlane_AutomaticTracking_Gunsight_switch, up = iCommandPlane_AutomaticTracking_Gunsight_switch, name = _("Automatic tracking/gun sight"),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlane_FireRate, up = iCommandPlane_FireRate,  name = _("Cannon rate of fire setting"),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlaneModeHelmet, up = iCommandPlaneModeHelmet,  name = _("Helmet-mounted system On/Off"),  category = _("DCSToggleSwitches"), },
 
 
 -- Cheat - Temporary

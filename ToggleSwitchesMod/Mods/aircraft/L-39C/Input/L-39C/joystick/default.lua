@@ -7,16 +7,16 @@ join(res.keyCommands,{
 
 -- Alternate Controls
 
-{combos = {{key = 'JOY_BTN30'}}	,down = iCommandLeftEngineStop , up = iCommandLeftEngineStart,  name = _('Left Engine Throttle Set OFF') , category = _('Systems')},
-{combos = {{key = 'JOY_BTN29'}}	,down = iCommandRightEngineStop, up = iCommandRightEngineStart, name = _('Right Engine Throttle Set OFF'), category = _('Systems')},
+{combos = {{key = 'JOY_BTN30'}}	,down = iCommandLeftEngineStop , up = iCommandLeftEngineStart,  name = _('Left Engine Throttle Set OFF') , category = _('DCSToggleSwitches')},
+{combos = {{key = 'JOY_BTN29'}}	,down = iCommandRightEngineStop, up = iCommandRightEngineStart, name = _('Right Engine Throttle Set OFF'), category = _('DCSToggleSwitches')},
 
 ------------------------------------------------
 -- Alternate -----------------------------------
 ------------------------------------------------
 
-{down = iCommandPlaneGearUp, up=device_commands.Button_15, cockpit_device_id = devices.CTRL_INTERFACE, value_up=1 name = _('Landing Gear Handle, Up/Neutral'),	category = _('Alternate')},
-{down = iCommandPlaneFlaps,	up = iCommandPlaneFlaps,	value_down = 1,	value_up = 2,	name = _('Alternate Flaps Flight/Takeoff Position'),  category = _('Alternate')},
-{down = iCommandPlaneFlaps,	up = iCommandPlaneFlaps,	value_down = 3,	value_up = 2,	name = _('Alternate Flaps Landing Position'), category = _('Alternate')},
+{down = iCommandPlaneGearUp, up=device_commands.Button_15, cockpit_device_id = devices.CTRL_INTERFACE, value_up=1 name = _('Landing Gear Handle, Up/Neutral'),	category = _('DCSToggleSwitches')},
+{down = iCommandPlaneFlaps,	up = iCommandPlaneFlaps,	value_down = 1,	value_up = 2,	name = _('Alternate Flaps Flight/Takeoff Position'),  category = _('DCSToggleSwitches')},
+{down = iCommandPlaneFlaps,	up = iCommandPlaneFlaps,	value_down = 3,	value_up = 2,	name = _('Alternate Flaps Landing Position'), category = _('DCSToggleSwitches')},
 
 ------------------------------------------------
 -- Cheat -------------------------------------

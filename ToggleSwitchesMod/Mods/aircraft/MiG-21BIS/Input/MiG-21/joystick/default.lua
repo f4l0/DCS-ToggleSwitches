@@ -19,61 +19,61 @@ keyCommands={
 --************** Custom ***********************************************************************
 
 --Alternate Airbrakes
-{down=device_commands.Airbrakes,up=device_commands.Airbrakes,cockpit_device_id=devices.AIRBRAKE,value_down=1.0,value_up=0.0,name='Alternate Airbrakes On',category='Flight Controls'},
+{down=device_commands.Airbrakes,up=device_commands.Airbrakes,cockpit_device_id=devices.AIRBRAKE,value_down=1.0,value_up=0.0,name='Alternate Airbrakes On',category='DCSToggleSwitches'},
 
 --Alternate Flaps
-{down=device_commands.Flaps0,cockpit_device_id=devices.FLAPS,up=device_commands.Flaps25,value_down=1.0,value_up=1.0,name='Alternate Flaps Up',category='Flight Controls'},
-{down=device_commands.Flaps45,cockpit_device_id=devices.FLAPS,up=device_commands.Flaps25,value_down=1.0,value_up=1.0,name='Alternate Flaps Down',category='Flight Controls'},
+{down=device_commands.Flaps0,cockpit_device_id=devices.FLAPS,up=device_commands.Flaps25,value_down=1.0,value_up=1.0,name='Alternate Flaps Up',category='DCSToggleSwitches'},
+{down=device_commands.Flaps45,cockpit_device_id=devices.FLAPS,up=device_commands.Flaps25,value_down=1.0,value_up=1.0,name='Alternate Flaps Down',category='DCSToggleSwitches'},
 
 --Alternate Gears
-{down=device_commands.GearLever,up=device_commands.GearLever,cockpit_device_id=devices.GEARS,value_down=1.0,value_up=0.0,name='Alternate Gears Up',category='Gears, brakes and chute'},
-{down=device_commands.GearLever,up=device_commands.GearLever,cockpit_device_id=devices.GEARS,value_down=-1.0,value_up=0.0,name='Alternate Gears Down',category='Gears, brakes and chute'},
-{down=device_commands.GearHandleFixator,up=device_commands.GearHandleFixator,cockpit_device_id=devices.GEARS,value_down=1.0,value_up=0.0,name='Alternate Gears Handle Lock released',category='Gears, brakes and chute'},
+{down=device_commands.GearLever,up=device_commands.GearLever,cockpit_device_id=devices.GEARS,value_down=1.0,value_up=0.0,name='Alternate Gears Up',category='DCSToggleSwitches'},
+{down=device_commands.GearLever,up=device_commands.GearLever,cockpit_device_id=devices.GEARS,value_down=-1.0,value_up=0.0,name='Alternate Gears Down',category='DCSToggleSwitches'},
+{down=device_commands.GearHandleFixator,up=device_commands.GearHandleFixator,cockpit_device_id=devices.GEARS,value_down=1.0,value_up=0.0,name='Alternate Gears Handle Lock released',category='DCSToggleSwitches'},
 
 --Alternate Landing Lights
-{down=device_commands.LandingLights,up=device_commands.LandingLights,cockpit_device_id=devices.LIGHTS,value_down=1.0,value_up=0.5,name='Alternate Landing Lights Land',category='Lights'},
-{down=device_commands.LandingLights,up=device_commands.LandingLights,cockpit_device_id=devices.LIGHTS,value_down=0.0,value_up=0.5,name='Alternate Landing Lights Off',category='Lights'},
-{down=device_commands.LandingLights,up=device_commands.LandingLights,cockpit_device_id=devices.LIGHTS,value_down=1.0,value_up=0.0,name='Alternate Landing Lights Land 2 Position Only',category='Lights'},
+{down=device_commands.LandingLights,up=device_commands.LandingLights,cockpit_device_id=devices.LIGHTS,value_down=1.0,value_up=0.5,name='Alternate Landing Lights Land',category='DCSToggleSwitches'},
+{down=device_commands.LandingLights,up=device_commands.LandingLights,cockpit_device_id=devices.LIGHTS,value_down=0.0,value_up=0.5,name='Alternate Landing Lights Off',category='DCSToggleSwitches'},
+{down=device_commands.LandingLights,up=device_commands.LandingLights,cockpit_device_id=devices.LIGHTS,value_down=1.0,value_up=0.0,name='Alternate Landing Lights Land 2 Position Only',category='DCSToggleSwitches'},
 
 --Alternate Afterburner
-{down=device_commands.ForsMax,up=device_commands.ForsMax,cockpit_device_id=devices.ENGINE,value_down=1.0,value_up=0.0,name='Alternate Afterburner/Maximum On',category='Engine'},
-{down=device_commands.Chr,up=device_commands.Chr,cockpit_device_id=devices.ENGINE,value_down=1.0,value_up=0.0,name='Alternate Emergency Afterburner On',category='Engine'},
+{down=device_commands.ForsMax,up=device_commands.ForsMax,cockpit_device_id=devices.ENGINE,value_down=1.0,value_up=0.0,name='Alternate Afterburner/Maximum On',category='DCSToggleSwitches'},
+{down=device_commands.Chr,up=device_commands.Chr,cockpit_device_id=devices.ENGINE,value_down=1.0,value_up=0.0,name='Alternate Emergency Afterburner On',category='DCSToggleSwitches'},
 
 --Alternate Air Start
-{down=device_commands.AirStart,up=device_commands.AirStart,cockpit_device_id=devices.ENGINE_START_DEVICE,value_down=1.0,value_up=0.0,name='Alternate Engine Emergency Air Start On',category='Engine'},
+{down=device_commands.AirStart,up=device_commands.AirStart,cockpit_device_id=devices.ENGINE_START_DEVICE,value_down=1.0,value_up=0.0,name='Alternate Engine Emergency Air Start On',category='DCSToggleSwitches'},
 
 --Alternate Nosegear Brake
-{down=device_commands.NosegearBrake,up=device_commands.NosegearBrake,cockpit_device_id=devices.GEAR_BRAKES,value_down=1.0,value_up=0.0,name='Alternate Nosegear Brake On',category='Gears, brakes and chute'},
+{down=device_commands.NosegearBrake,up=device_commands.NosegearBrake,cockpit_device_id=devices.GEAR_BRAKES,value_down=1.0,value_up=0.0,name='Alternate Nosegear Brake On',category='DCSToggleSwitches'},
 
 --Alternate APU
-{down=device_commands.Zazig,up=device_commands.Zazig,cockpit_device_id=devices.ENGINE_START_DEVICE,value_down=1.0,value_up=0.0,name='Alternate APU On',category='Engine'},
+{down=device_commands.Zazig,up=device_commands.Zazig,cockpit_device_id=devices.ENGINE_START_DEVICE,value_down=1.0,value_up=0.0,name='Alternate APU On',category='DCSToggleSwitches'},
 
 --Alternate Weapon Master Mode
-{down=device_commands.ASPvozduhZemlja,up=device_commands.ASPvozduhZemlja,cockpit_device_id=devices.WEAPON_CONTROL,value_down=1.0,value_up=0.0,name='Alternate Master Mode - Air',category='Weapons / Master control'},
-{down=device_commands.ASPssNeutrRns,up=device_commands.ASPssNeutrRns,cockpit_device_id=devices.WEAPON_CONTROL,value_down=1.0,value_up=0.5,name='Alternate Weapon AA Mode - IR Missile',category='Weapons / Master control'},
-{down=device_commands.ASPssNeutrRns,up=device_commands.ASPssNeutrRns,cockpit_device_id=devices.WEAPON_CONTROL,value_down=0.0,value_up=0.5,name='Alternate Weapon AA Mode - SAR Missile',category='Weapons / Master control'},
-{down=device_commands.ASPssNeutrRns,up=device_commands.ASPssNeutrRns,cockpit_device_id=devices.WEAPON_CONTROL,value_down=1.0,value_up=0.0,name='Alternate Weapon AA Mode - IR Missile 2 Position Only',category='Weapons / Master control'},
+{down=device_commands.ASPvozduhZemlja,up=device_commands.ASPvozduhZemlja,cockpit_device_id=devices.WEAPON_CONTROL,value_down=1.0,value_up=0.0,name='Alternate Master Mode - Air',category='DCSToggleSwitches'},
+{down=device_commands.ASPssNeutrRns,up=device_commands.ASPssNeutrRns,cockpit_device_id=devices.WEAPON_CONTROL,value_down=1.0,value_up=0.5,name='Alternate Weapon AA Mode - IR Missile',category='DCSToggleSwitches'},
+{down=device_commands.ASPssNeutrRns,up=device_commands.ASPssNeutrRns,cockpit_device_id=devices.WEAPON_CONTROL,value_down=0.0,value_up=0.5,name='Alternate Weapon AA Mode - SAR Missile',category='DCSToggleSwitches'},
+{down=device_commands.ASPssNeutrRns,up=device_commands.ASPssNeutrRns,cockpit_device_id=devices.WEAPON_CONTROL,value_down=1.0,value_up=0.0,name='Alternate Weapon AA Mode - IR Missile 2 Position Only',category='DCSToggleSwitches'},
 
 --Alternate Radar
-{down=device_commands.RADARon,up=device_commands.RADARon,cockpit_device_id=devices.RADAR,value_down=1.0,value_up=0.5,name='Alternate Radar On',category='Radar and SPO'},
-{down=device_commands.RADARon,up=device_commands.RADARon,cockpit_device_id=devices.RADAR,value_down=0.0,value_up=0.5,name='Alternate Radar Off',category='Radar and SPO'},
+{down=device_commands.RADARon,up=device_commands.RADARon,cockpit_device_id=devices.RADAR,value_down=1.0,value_up=0.5,name='Alternate Radar On',category='DCSToggleSwitches'},
+{down=device_commands.RADARon,up=device_commands.RADARon,cockpit_device_id=devices.RADAR,value_down=0.0,value_up=0.5,name='Alternate Radar Off',category='DCSToggleSwitches'},
 
 --Alternate Radar Beam
-{down=device_commands.RADARfixBeam, up=device_commands.RADARfixBeam, cockpit_device_id=devices.RADAR,value_down=1, value_up=0, name='Alternate Locked Beam On',category='Radar and SPO'},
-{down=device_commands.RADARfixBeam, up=device_commands.RADARfixBeam, cockpit_device_id=devices.RADAR,value_down=0, value_up=1,name='Alternate Locked Beam Off',category='Radar and SPO'},
+{down=device_commands.RADARfixBeam, up=device_commands.RADARfixBeam, cockpit_device_id=devices.RADAR,value_down=1, value_up=0, name='Alternate Locked Beam On',category='DCSToggleSwitches'},
+{down=device_commands.RADARfixBeam, up=device_commands.RADARfixBeam, cockpit_device_id=devices.RADAR,value_down=0, value_up=1,name='Alternate Locked Beam Off',category='DCSToggleSwitches'},
 
 --Alternate RSBN Mode
-{down=device_commands.RSBNmode,up=device_commands.RSBNmode,cockpit_device_id=devices.RSBN,value_down=1.0,value_up=0.5,name='Alternate RSBN Mode: Descend',category='Avionics'},
-{down=device_commands.RSBNmode,up=device_commands.RSBNmode,cockpit_device_id=devices.RSBN,value_down=0.0,value_up=0.5,name='Alternate RSBN Mode: Landing',category='Avionics'},
+{down=device_commands.RSBNmode,up=device_commands.RSBNmode,cockpit_device_id=devices.RSBN,value_down=1.0,value_up=0.5,name='Alternate RSBN Mode: Descend',category='DCSToggleSwitches'},
+{down=device_commands.RSBNmode,up=device_commands.RSBNmode,cockpit_device_id=devices.RSBN,value_down=0.0,value_up=0.5,name='Alternate RSBN Mode: Landing',category='DCSToggleSwitches'},
 
 --Alternate Navigation Lights
-{down=device_commands.NavLights,up=device_commands.NavLights,cockpit_device_id=devices.LIGHTS,value_down=0.33,value_up=0.0,name='Alternate Nav Lights Min/Off',category='Lights'},
-{down=device_commands.NavLights,up=device_commands.NavLights,cockpit_device_id=devices.LIGHTS,value_down=0.99,value_up=0.0,name='Alternate Nav Lights Max/Off',category='Lights'},
-{down=device_commands.NavLights,up=device_commands.NavLights,cockpit_device_id=devices.LIGHTS,value_down=0.99,value_up=0.66,name='Alternate Nav Lights Max/Med',category='Lights'},
+{down=device_commands.NavLights,up=device_commands.NavLights,cockpit_device_id=devices.LIGHTS,value_down=0.33,value_up=0.0,name='Alternate Nav Lights Min/Off',category='DCSToggleSwitches'},
+{down=device_commands.NavLights,up=device_commands.NavLights,cockpit_device_id=devices.LIGHTS,value_down=0.99,value_up=0.0,name='Alternate Nav Lights Max/Off',category='DCSToggleSwitches'},
+{down=device_commands.NavLights,up=device_commands.NavLights,cockpit_device_id=devices.LIGHTS,value_down=0.99,value_up=0.66,name='Alternate Nav Lights Max/Med',category='DCSToggleSwitches'},
 
 --Alternate Radar Low Altitude Filter
-{down=device_commands.RADARlowAlt,up=device_commands.RADARlowAlt,cockpit_device_id=devices.RADAR,value_down=1,value_up=0.5,name='Alternate Low Altitude Antenna Tilt',category='Radar and SPO'},
-{down=device_commands.RADARlowAlt,up=device_commands.RADARlowAlt,cockpit_device_id=devices.RADAR,value_down=0.0,value_up=0.5,name='Alternate Low Altitude Filter Off',category='Radar and SPO'},
+{down=device_commands.RADARlowAlt,up=device_commands.RADARlowAlt,cockpit_device_id=devices.RADAR,value_down=1,value_up=0.5,name='Alternate Low Altitude Antenna Tilt',category='DCSToggleSwitches'},
+{down=device_commands.RADARlowAlt,up=device_commands.RADARlowAlt,cockpit_device_id=devices.RADAR,value_down=0.0,value_up=0.5,name='Alternate Low Altitude Filter Off',category='DCSToggleSwitches'},
 
 --Alternate Weapon Selection Dial
 --{down=device_commands.ASPlauncherSelect,cockpit_device_id=devices.WEAPON_CONTROL,value_down=weapon_selecter(),name='Select Weapon Dial Clockwise',category='Weapons / Select'},

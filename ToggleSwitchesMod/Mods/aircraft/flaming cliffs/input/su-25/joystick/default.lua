@@ -2,11 +2,11 @@ local res = external_profile("Config/Input/Aircrafts/base_joystick_binding.lua")
 join(res.keyCommands,{
 
 -- alternate
-{combos = {{key = 'JOY_BTN30'}}	,down = iCommandLeftEngineStop , up = iCommandLeftEngineStart,  name = _('Left Engine Throttle Set OFF') , category = _('Systems')},
-{combos = {{key = 'JOY_BTN29'}}	,down = iCommandRightEngineStop, up = iCommandRightEngineStart, name = _('Right Engine Throttle Set OFF'), category = _('Systems')},
+{combos = {{key = 'JOY_BTN30'}}	,down = iCommandLeftEngineStop , up = iCommandLeftEngineStart,  name = _('Left Engine Throttle Set OFF') , category = _('DCSToggleSwitches')},
+{combos = {{key = 'JOY_BTN29'}}	,down = iCommandRightEngineStop, up = iCommandRightEngineStart, name = _('Right Engine Throttle Set OFF'), category = _('DCSToggleSwitches')},
 
-{combos = {{key = 'JOY_BTN22'}}, down = iCommandPlaneFlapsOff, up = iCommandPlaneFlaps, name = 'Flaps Up/Start', category = 'Alternative Controls'},
-{combos = {{key = 'JOY_BTN23'}}, down = iCommandPlaneFlapsOn, up = iCommandPlaneFlaps, name = 'Flaps Landing/Start', category = 'Alternative Controls'},
+{combos = {{key = 'JOY_BTN22'}}, down = iCommandPlaneFlapsOff, up = iCommandPlaneFlaps, name = 'Flaps Up/Start', category = 'DCSToggleSwitches'},
+{combos = {{key = 'JOY_BTN23'}}, down = iCommandPlaneFlapsOn, up = iCommandPlaneFlaps, name = 'Flaps Landing/Start', category = 'DCSToggleSwitches'},
 
 -- Systems
 --{down = iCommandPlaneAirRefuel, name = _('Refueling Boom'), category = _('Systems')},

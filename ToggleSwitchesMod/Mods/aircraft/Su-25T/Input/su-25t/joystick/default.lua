@@ -3,8 +3,8 @@ join(res.keyCommands,{
 
 -- Alternate Controls
 
-{combos = {{key = 'JOY_BTN30'}}	,down = iCommandLeftEngineStop , up = iCommandLeftEngineStart,  name = _('Left Engine Throttle Set OFF') , category = _('Systems')},
-{combos = {{key = 'JOY_BTN29'}}	,down = iCommandRightEngineStop, up = iCommandRightEngineStart, name = _('Right Engine Throttle Set OFF'), category = _('Systems')},
+{combos = {{key = 'JOY_BTN30'}}	,down = iCommandLeftEngineStop , up = iCommandLeftEngineStart,  name = _('Left Engine Throttle Set OFF') , category = _('DCSToggleSwitches')},
+{combos = {{key = 'JOY_BTN29'}}	,down = iCommandRightEngineStop, up = iCommandRightEngineStart, name = _('Right Engine Throttle Set OFF'), category = _('DCSToggleSwitches')},
 
 -- Autopilot
 {down = iCommandPlaneAutopilot, name = _('Autopilot'), category = _('Autopilot')},

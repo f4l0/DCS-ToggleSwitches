@@ -17,16 +17,16 @@ keyCommands = {
 --Polaris Custom
 
 --Alternate flaps
-{down = device_commands.Button_1, up = device_commands.Button_2, cockpit_device_id  = devices.CONTROL_SYSTEM, value_down = 1.0, value_up = 1.0, name = _('Alternate Flaps Up middle'), category = _('Flight Control')},
-{down = device_commands.Button_3, up = device_commands.Button_2, cockpit_device_id  = devices.CONTROL_SYSTEM, value_down = 1.0, value_up = 1.0, name = _('Alternate Flaps Landing middle'), category = _('Flight Control')},
+{down = device_commands.Button_1, up = device_commands.Button_2, cockpit_device_id  = devices.CONTROL_SYSTEM, value_down = 1.0, value_up = 1.0, name = _('Alternate Flaps Up middle'), category = _('DCSToggleSwitches')},
+{down = device_commands.Button_3, up = device_commands.Button_2, cockpit_device_id  = devices.CONTROL_SYSTEM, value_down = 1.0, value_up = 1.0, name = _('Alternate Flaps Landing middle'), category = _('DCSToggleSwitches')},
 --Alternate Throttle
-{down = iCommandLeftEngineStop, up = iCommandLeftEngineStart, name = _('Alternate Throttle to IDLE Start'), category = _('Engine Control')},
+{down = iCommandLeftEngineStop, up = iCommandLeftEngineStart, name = _('Alternate Throttle to IDLE Start'), category = _('DCSToggleSwitches')},
 --Alternate Gunsight Power
-{down = device_commands.Button_1, up = device_commands.Button_1, cockpit_device_id = devices.EZ42_GUNSIGHT, value_down = 1.0, value_up = 0.0, name = _('Alternate Gunsight Power'), category = _('EZ42 gunsight')},
+{down = device_commands.Button_1, up = device_commands.Button_1, cockpit_device_id = devices.EZ42_GUNSIGHT, value_down = 1.0, value_up = 0.0, name = _('Alternate Gunsight Power'), category = _('DCSToggleSwitches')},
 --Alternate Master Arm
-{down = device_commands.Button_3, up = device_commands.Button_3, cockpit_device_id = devices.WEAPON_SYSTEM, value_down = 1.0, value_up = 0.0, name = _('Alternate Main weapon switcher'), category = _('Weapon System')},
+{down = device_commands.Button_3, up = device_commands.Button_3, cockpit_device_id = devices.WEAPON_SYSTEM, value_down = 1.0, value_up = 0.0, name = _('Alternate Main weapon switcher'), category = _('DCSToggleSwitches')},
 --Alternate Main Rocket Switch
-{down = device_commands.Button_8, up = device_commands.Button_8, cockpit_device_id = devices.WEAPON_SYSTEM, value_down = 1.0, value_up = 0.0, name = _('Alternate Main Rocket Switch'), category = _('Weapon  System')},
+{down = device_commands.Button_8, up = device_commands.Button_8, cockpit_device_id = devices.WEAPON_SYSTEM, value_down = 1.0, value_up = 0.0, name = _('Alternate Main Rocket Switch'), category = _('DCSToggleSwitches')},
 
 
 {down = iCommandEnginesStart, name = _('Start Procedure'), category = _('Cheat')},

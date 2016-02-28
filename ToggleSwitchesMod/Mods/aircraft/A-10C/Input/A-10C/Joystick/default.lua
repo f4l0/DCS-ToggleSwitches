@@ -11,17 +11,12 @@ keyCommands = {
 ---------------------------------
 -- Alternate --------------------
 ---------------------------------
-{down = iCommandPlaneAHCPMasterArm, up = iCommandPlaneAHCPMasterSafe,	name = 'Master switch ARM switch', category = 'Alternate'},
-
-{down = iCommandPlaneAHCPGUNPACArm, up = iCommandPlaneAHCPGUNSafe,		name = 'GUN/PAC switch ARM switch', category = 'Alternate'},
-
-{down = iCommandPlaneAHCPGUNArm, up = iCommandPlaneAHCPGUNSafe,			name = 'GUN/PAC switch GUNARM switch', category = 'Alternate'},
-
-{down = iCommandPlaneAHCPLaserArm, 	up = iCommandPlaneAHCPLaserSafe,	name = 'LASER switch ARM switch', category = 'Alternate'},
-
-{down = iCommandPlaneAHCPTGPOnOff, 	up = iCommandPlaneAHCPTGPOnOff,		name = 'TGP switch ON/OFF switch', category = 'Alternate'},
-
-{down = iCommandPlaneLGPLandLight, up = iCommandPlaneLGPLightsOff,		name = 'Landing Lights On switch', category = 'Alternate'},
+{down = iCommandPlaneAHCPMasterArm, up = iCommandPlaneAHCPMasterSafe,	name = 'Master switch ARM switch', category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPGUNPACArm, up = iCommandPlaneAHCPGUNSafe,		name = 'GUN/PAC switch ARM switch', category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPGUNArm, up = iCommandPlaneAHCPGUNSafe,			name = 'GUN/PAC switch GUNARM switch', category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPLaserArm, 	up = iCommandPlaneAHCPLaserSafe,	name = 'LASER switch ARM switch', category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPTGPOnOff, 	up = iCommandPlaneAHCPTGPOnOff,		name = 'TGP switch ON/OFF switch', category = 'DCSToggleSwitches'},
+{down = iCommandPlaneLGPLandLight, up = iCommandPlaneLGPLightsOff,		name = 'Landing Lights On switch', category = 'DCSToggleSwitches'},
 
 {down = iCommandActivePauseOnOff, name = 'Active Pause', category = 'Cheat'},
 {down = iCommandEnginesStart, name = 'Start Procedure', category = 'Cheat'},
