@@ -1,0 +1,1 @@
+ToggleSwitchesMod is JSGME ready.
