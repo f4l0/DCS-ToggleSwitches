@@ -8,6 +8,9 @@ swapAxes = false,
 
 keyCommands = {
 
+---------------------------------
+-- Alternate --------------------
+---------------------------------
 {down = iCommandPlaneWheelParkingBrake, up = iCommandPlaneWheelParkingBrake,  name = _("Custom Wheel brake parking"),  category = _("DCSToggleSwitches"), },
 {down = iCommandSwitchMasterArm, up = iCommandSwitchMasterArm, name = _("Custom Master arm on/off"),  category = _("DCSToggleSwitches"), },
 {down = iCommandHelicopter_Rotor_Lock, up = iCommandHelicopter_Rotor_Lock, name = _("Custom Rotor brake"),  category = _("DCSToggleSwitches"), },
@@ -23,8 +26,10 @@ keyCommands = {
 {down = iCommandPlane_AmmoTypeSelect		, up = iCommandPlane_AmmoTypeSelect, name = _('Cannon round selector switch'), category = _('DCSToggleSwitches')},
 {down = iCommandPlane_FireRate				, up = iCommandPlane_FireRate, name = _('Cannon rate of fire setting'), category = _('DCSToggleSwitches')},
 {down = iCommandPlane_RouteMode				, up = iCommandPlane_RouteMode, name = _('Engage/Disengage Route Mode'), category = _('DCSToggleSwitches')},
-{down = 3004, value_down = 0.2, up = 3004, value_up = 0.1, cockpit_device_id = 12, name = " Weapon mode switch center/up", category = "DCSToggleSwitches"},
-{down = 3004, value_down = 0.0, up = 3004, value_up = 0.1, cockpit_device_id = 12, name = " Weapon mode switch down/center", category = "DCSToggleSwitches"},
+{down = 3004, value_down = 0.2, up = 3004, value_up = 0.1, cockpit_device_id = 12, name = " Weapon mode switch center/up", category = _('DCSToggleSwitches')},
+{down = 3004, value_down = 0.0, up = 3004, value_up = 0.1, cockpit_device_id = 12, name = " Weapon mode switch down/center", category = _('DCSToggleSwitches')},
+---------------------------------
+---------------------------------
 
 
 -- Cheat - Temporary

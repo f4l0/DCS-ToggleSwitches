@@ -21,7 +21,7 @@ keyCommands = {
 {down = iCommandPlaneLGPLandLight,				up = iCommandPlaneLGPLightsOff,			name = 'Landing Lights On/Off switch', 		category = 'DCSToggleSwitches'},
 {down = iCommandPlaneLGPTaxiLight,				up = iCommandPlaneLGPLightsOff,			name = 'Taxi Lights On/Off switch', 		category = 'DCSToggleSwitches'},
 {down = iCommandPlanePositionLightsFlash, 		up = iCommandPlanePositionLightsOff, 	name = _('Position Lights Flash'), 			category = 'DCSToggleSwitches'},
-{down = iCommandPlanePositionLightsSteady, 		up iCommandPlanePositionLightsOff, 		name = _('Position Lights Steady'), 		category = 'DCSToggleSwitches'},
+{down = iCommandPlanePositionLightsSteady, 		up = iCommandPlanePositionLightsOff, 	name = _('Position Lights Steady'), 		category = 'DCSToggleSwitches'},
 
 
 {down = iCommandActivePauseOnOff, name = _('Active Pause'), category = _('Cheat')},
