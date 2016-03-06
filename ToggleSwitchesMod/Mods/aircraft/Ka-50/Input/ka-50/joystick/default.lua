@@ -19,6 +19,12 @@ keyCommands = {
 {down = iCommandPlane_AutomaticTracking_Gunsight_switch, up = iCommandPlane_AutomaticTracking_Gunsight_switch, name = _("Automatic tracking/gun sight"),  category = _("DCSToggleSwitches"), },
 {down = iCommandPlane_FireRate, up = iCommandPlane_FireRate,  name = _("Cannon rate of fire setting"),  category = _("DCSToggleSwitches"), },
 {down = iCommandPlaneModeHelmet, up = iCommandPlaneModeHelmet,  name = _("Helmet-mounted system On/Off"),  category = _("DCSToggleSwitches"), },
+{down = iCommandPlane_WeaponMode_switch		, up = iCommandPlane_WeaponMode_switch, name = _('Weapon mode switch'), category = _('DCSToggleSwitches')},
+{down = iCommandPlane_AmmoTypeSelect		, up = iCommandPlane_AmmoTypeSelect, name = _('Cannon round selector switch'), category = _('DCSToggleSwitches')},
+{down = iCommandPlane_FireRate				, up = iCommandPlane_FireRate, name = _('Cannon rate of fire setting'), category = _('DCSToggleSwitches')},
+{down = iCommandPlane_RouteMode				, up = iCommandPlane_RouteMode, name = _('Engage/Disengage Route Mode'), category = _('DCSToggleSwitches')},
+{down = 3004, value_down = 0.2, up = 3004, value_up = 0.1, cockpit_device_id = 12, name = " Weapon mode switch center/up", category = "DCSToggleSwitches"},
+{down = 3004, value_down = 0.0, up = 3004, value_up = 0.1, cockpit_device_id = 12, name = " Weapon mode switch down/center", category = "DCSToggleSwitches"},
 
 
 -- Cheat - Temporary

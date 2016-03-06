@@ -11,15 +11,17 @@ keyCommands = {
 ---------------------------------
 -- Alternate --------------------
 ---------------------------------
-{down = iCommandPlaneAHCPMasterArm,		up = iCommandPlaneAHCPMasterSafe,	name = 'Master switch ARM/SAFE switch', 	category = 'DCSToggleSwitches'},
-{down = iCommandPlaneAHCPMasterTrain,	up = iCommandPlaneAHCPMasterSafe,	name = 'Master switch TRAIN/SAFE switch', 	category = 'DCSToggleSwitches'},
-{down = iCommandPlaneAHCPGUNPACArm,		up = iCommandPlaneAHCPGUNSafe,		name = 'GUN/PAC switch ARM/SAFE switch', 	category = 'DCSToggleSwitches'},
-{down = iCommandPlaneAHCPGUNArm,		up = iCommandPlaneAHCPGUNSafe,		name = 'GUN switch GUNARM/SAFE switch', 	category = 'DCSToggleSwitches'},
-{down = iCommandPlaneAHCPLaserArm,		up = iCommandPlaneAHCPLaserSafe,	name = 'LASER switch ARM/SAFE switch', 		category = 'DCSToggleSwitches'},
-{down = iCommandPlaneAHCPLaserTrain,	up = iCommandPlaneAHCPLaserSafe,	name = 'LASER switch Train/SAFE switch', 	category = 'DCSToggleSwitches'},
-{down = iCommandPlaneAHCPTGPOnOff,		up = iCommandPlaneAHCPTGPOnOff,		name = 'TGP switch ON/OFF switch', 			category = 'DCSToggleSwitches'},
-{down = iCommandPlaneLGPLandLight,		up = iCommandPlaneLGPLightsOff,		name = 'Landing Lights On/Off switch', 		category = 'DCSToggleSwitches'},
-{down = iCommandPlaneLGPTaxiLight,		up = iCommandPlaneLGPLightsOff,		name = 'Taxi Lights On/Off switch', 		category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPMasterArm,				up = iCommandPlaneAHCPMasterSafe,		name = 'Master switch ARM/SAFE switch', 	category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPMasterTrain,			up = iCommandPlaneAHCPMasterSafe,		name = 'Master switch TRAIN/SAFE switch', 	category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPGUNPACArm,				up = iCommandPlaneAHCPGUNSafe,			name = 'GUN/PAC switch ARM/SAFE switch', 	category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPGUNArm,				up = iCommandPlaneAHCPGUNSafe,			name = 'GUN switch GUNARM/SAFE switch', 	category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPLaserArm,				up = iCommandPlaneAHCPLaserSafe,		name = 'LASER switch ARM/SAFE switch', 		category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPLaserTrain,			up = iCommandPlaneAHCPLaserSafe,		name = 'LASER switch Train/SAFE switch', 	category = 'DCSToggleSwitches'},
+{down = iCommandPlaneAHCPTGPOnOff,				up = iCommandPlaneAHCPTGPOnOff,			name = 'TGP switch ON/OFF switch', 			category = 'DCSToggleSwitches'},
+{down = iCommandPlaneLGPLandLight,				up = iCommandPlaneLGPLightsOff,			name = 'Landing Lights On/Off switch', 		category = 'DCSToggleSwitches'},
+{down = iCommandPlaneLGPTaxiLight,				up = iCommandPlaneLGPLightsOff,			name = 'Taxi Lights On/Off switch', 		category = 'DCSToggleSwitches'},
+{down = iCommandPlanePositionLightsFlash, 		up = iCommandPlanePositionLightsOff, 	name = _('Position Lights Flash'), 			category = 'DCSToggleSwitches'},
+{down = iCommandPlanePositionLightsSteady, 		up iCommandPlanePositionLightsOff, 		name = _('Position Lights Steady'), 		category = 'DCSToggleSwitches'},
 
 
 {down = iCommandActivePauseOnOff, name = _('Active Pause'), category = _('Cheat')},
