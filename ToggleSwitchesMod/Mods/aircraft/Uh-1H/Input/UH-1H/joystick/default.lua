@@ -16,6 +16,10 @@ swapAxes = false,
 
 keyCommands = {
 
+---------------------------------
+-- Alternate --------------------
+---------------------------------
+
 --Polaris Custom
 {down = device_commands.Button_20, up = device_commands.Button_20, cockpit_device_id  = devices.WEAPON_SYS, value_down = 1.0, value_up = -1.0, name = 'Alternate Armament Off/Safe/Armed Up', category = 'DCSToggleSwitches'},
 {down = device_commands.Button_20, up = device_commands.Button_20, cockpit_device_id  = devices.WEAPON_SYS, value_down = -1.0, value_up = 1.0, name = 'Alternate Armament Off/Safe/Armed Down', category = 'DCSToggleSwitches'},
@@ -28,6 +32,23 @@ keyCommands = {
 
 {down = device_commands.Button_6, up = device_commands.Button_6, cockpit_device_id  = devices.NAVLIGHT_SYSTEM, value_down = 1.0, value_up = 0.0, name = _('Alternate Search light On/Off'), category = _('DCSToggleSwitches')},
 {down = device_commands.Button_6, up = device_commands.Button_6, cockpit_device_id  = devices.NAVLIGHT_SYSTEM, value_down = -1.0, value_up = 0.0, name = _('Alternate Search light Stow/Off'), category = _('DCSToggleSwitches')},
+
+{down = device_commands.Button_2, cockpit_device_id  = devices.NAVLIGHT_SYSTEM, value_down = 1.0,  value_up = 0.0, name = _('Nav Lights Steady/Off'), category = _('DCSToggleSwitches')},
+{down = device_commands.Button_2, cockpit_device_id  = devices.NAVLIGHT_SYSTEM, value_down = -1.0,  value_up = 0.0, name = _('Nav Lights Flash/Off'), category = _('DCSToggleSwitches')},
+{down = device_commands.Button_14, up = device_commands.Button_14, cockpit_device_id  = devices.NAVLIGHT_SYSTEM, value_down = 1.0,  value_up = 0.0, name = _('Anti Collision Light Switch'), category = _('DCSToggleSwitches')}, 
+
+{down = 3003, up = 3003, cockpit_device_id = 2, value_down = 0, value_up = 1, name = _('Main Fuel Switch'), category = _('DCSToggleSwitches')},
+
+{down = 3006, up = 3006, cockpit_device_id = 4, value_down = 1, value_up = 0, name = "Force Trim System On/Off", category = "DCSToggleSwitches"},
+{down = 3016, up = 3016, cockpit_device_id = 3, value_down = 1, value_up = 0, name = "Governor Auto/Emer", category = "DCSToggleSwitches"},
+{down = 3005, up = 3005, cockpit_device_id = 4, value_down = 1, value_up = 0, name = "Hydraulic control On/Off", category = "DCSToggleSwitches"},
+
+{down = 3028, up = 3029, cockpit_device_id = 9, value_down = 1, value_up = 1, name = "AutoPilot ATTITUDE HOLD/LEVEL FLIGHT", category = "DCSToggleSwitches"},
+{down = 3030, up = 3029, cockpit_device_id = 9, value_down = 1, value_up = 1, name = "AutoPilot ORBIT/LEVEL FLIGHT", category = "DCSToggleSwitches"},
+
+{down = device_commands.Button_8, up = device_commands.Button_8, cockpit_device_id = devices.RADAR_ALTIMETER, value_down = 1.0, value_up = 1.0,  name = _('Radar Altimeter Power Switch'), category = _('DCSToggleSwitches')},
+
+---------------------------------
 
 -- Cheat - Temporary
 {down = iCommandEnginesStart, name = _('Auto Start'), category = _('Cheat')},
